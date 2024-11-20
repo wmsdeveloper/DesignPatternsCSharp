@@ -9,6 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimpleFactoryPattern", "Sim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactoryPattern", "SimpleFactoryPattern\SimpleFactoryPattern.csproj", "{617B052A-0E7B-4B62-A78B-9582E3D881D5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethodPattern", "FactoryMethodPattern", "{872E49A7-6AE6-480E-9627-E4A2F0D94429}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{E9A968E5-EDF4-4A41-8011-DEBD7EB6FB1F}"
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{65B2209E-9071-4005-9320-08ADFE98F5B9}"
 	ProjectSection(SolutionItems) = preProject
 		Readme.md = Readme.md
