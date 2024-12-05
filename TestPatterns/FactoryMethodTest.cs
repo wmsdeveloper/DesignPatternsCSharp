@@ -9,7 +9,7 @@ using FactoryMethodPattern.src;
 using FactoryMethodPattern.src.Factory;
 using FluentAssertions;
 
-namespace PatternsTest {
+namespace TestPatterns {
     public class FactoryMethodTest {
         [Trait("Category", " Factory Method")]
         [Fact(DisplayName = "Should Create Dog Animal")]
