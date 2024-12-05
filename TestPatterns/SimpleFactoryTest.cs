@@ -9,7 +9,7 @@ using FluentAssertions;
 using SimpleFactoryPattern.src;
 using SimpleFactoryPattern.src.Factory;
 
-namespace PatternsTest {
+namespace TestPatterns {
     public class SimpleFactoryTest {
         [Trait("Category", " Simple Factory ")]
         [Fact(DisplayName = "Should Create Dog Animal")]
