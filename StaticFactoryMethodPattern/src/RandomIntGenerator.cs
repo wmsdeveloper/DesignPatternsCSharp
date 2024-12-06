@@ -12,7 +12,7 @@
             return new RandomIntGenerator(min, max);
         }
 
-        public static RandomIntGenerator BiggerThan(int min) {
+        public static RandomIntGenerator GreaterThan(int min) {
             return new RandomIntGenerator(min, Int32.MaxValue);
         }
 

@@ -8,8 +8,8 @@ namespace StaticFactoryMethodPattern {
             int between = RandomIntGenerator.Between(1, 789).Next();
             Console.WriteLine($"Between value from 1 and 789 is: {between}");
 
-            int biggerThan = RandomIntGenerator.BiggerThan(234).Next();
-            Console.WriteLine($"Bigger than value from 234 is: {biggerThan}");
+            int greaterThan = RandomIntGenerator.GreaterThan(234).Next();
+            Console.WriteLine($"Bigger than value from 234 is: {greaterThan}");
 
             int lessThan = RandomIntGenerator.LessThan(56412).Next();
             Console.WriteLine($"Less than value from 56412 is: {lessThan}");
