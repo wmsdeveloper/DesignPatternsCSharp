@@ -10,6 +10,7 @@ __Creational Patterns__:
 |:-------:| ----------- |
 | Simple Factory | Create an object without exposing the instantiation logic to the client |
 | Factory Method | Define an interface for creating an object, but lets subclasses decide which class to instantiate |
+| Static Factory Method | Delegate a static function/method to create instances |
 <!--
 | Abstract Factory | use a generic function with specific factories |
 | [borg](patterns/creational/borg.py) | a singleton with shared-state among instances |

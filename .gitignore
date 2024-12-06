@@ -12,3 +12,5 @@
 /AbstractFactoryPattern/obj
 /TestPatterns/bin/Release/net9.0
 /AbstractFactoryPattern/bin/Debug/net9.0
+/StaticFactoryMethodPattern/bin/Debug/net9.0
+/StaticFactoryMethodPattern/obj
