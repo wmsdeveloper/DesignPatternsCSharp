@@ -16,3 +16,16 @@
 /StaticFactoryMethodPattern/obj
 /StrategyPattern/bin/Debug/net9.0
 /StrategyPattern/obj
+/Creational Patterns/AbstractFactoryPattern/bin/Debug/net9.0
+/Creational Patterns/AbstractFactoryPattern/obj
+/Creational Patterns/FactoryMethodPattern/bin/Debug/net9.0
+/Creational Patterns/FactoryMethodPattern/obj
+/Creational Patterns/SimpleFactoryPattern/bin/Debug/net9.0
+/Creational Patterns/SimpleFactoryPattern/obj
+/Creational Patterns/StaticFactoryMethodPattern/bin/Debug/net9.0
+/Creational Patterns/StaticFactoryMethodPattern/obj
+/Structural Patterns/StrategyPattern/bin/Debug/net9.0
+/Structural Patterns/StrategyPattern/obj
+/Others Patterns/RepositoryPattern/Domain/Domain/obj
+/Others Patterns/RepositoryPattern/Infra/Infra/obj
+/Others Patterns/RepositoryPattern/WebApi/WebApi/obj
