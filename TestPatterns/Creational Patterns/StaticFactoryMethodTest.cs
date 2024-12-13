@@ -8,7 +8,7 @@
 using FluentAssertions;
 using StaticFactoryMethodPattern.src;
 
-namespace TestPatterns {
+namespace TestPatterns.Creational_Patterns {
     public class StaticFactoryMethodTest {
         [Trait("Category", " Static Factory Method ")]
         [Fact(DisplayName = "Should Generate Bewteen")]

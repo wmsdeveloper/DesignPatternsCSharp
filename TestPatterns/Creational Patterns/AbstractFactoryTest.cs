@@ -9,7 +9,7 @@ using AbstractFactoryPattern.src;
 using AbstractFactoryPattern.src.Factory;
 using FluentAssertions;
 
-namespace TestPatterns {
+namespace TestPatterns.Creational_Patterns {
     public class AbstractFactoryTest {
 
         [Trait("Category", " Abstract Factory ")]
