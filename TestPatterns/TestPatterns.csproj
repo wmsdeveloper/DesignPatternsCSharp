@@ -20,10 +20,15 @@
     <ProjectReference Include="..\FactoryMethodPattern\FactoryMethodPattern.csproj" />
     <ProjectReference Include="..\SimpleFactoryPattern\SimpleFactoryPattern.csproj" />
     <ProjectReference Include="..\StaticFactoryMethodPattern\StaticFactoryMethodPattern.csproj" />
+    <ProjectReference Include="..\StrategyPattern\StrategyPattern.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Behavioral Patterns\" />
   </ItemGroup>
 
 </Project>
