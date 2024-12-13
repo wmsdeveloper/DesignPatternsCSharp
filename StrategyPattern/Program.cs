@@ -3,28 +3,32 @@ using StrategyPattern.src.Strategy;
 
 namespace StrategyPattern {
     public class StrategyPattern {
-        // This pattern should have the same methods in all concrete class, hierarching from the interface
         static void Main(string[] args) {
             Console.WriteLine("*** Strategy Pattern ***\n");
 
+            //-----------------------------------------------------------------------
+            // NOTE: This pattern should have the same methods in all concrete class,
+            //       hierarching from the interface.
+            //-----------------------------------------------------------------------
+            TranslationStrategy translation = new();
+
             // translate for brazilian
-            TranslationStrategy translationStrategyBR = new(new BrasilianTranslation());
-            translationStrategyBR.Translate("Hello");
-            translationStrategyBR.Translate("Home");
-            translationStrategyBR.Translate("none");
+            translation.SetStrategy(new BrasilianTranslation());
+            translation.Translate("Hello");
+            translation.Translate("Home");
+            translation.Translate("none");
 
             // translate for spanish
-            TranslationStrategy translationStrategyES = new(new SpanishTranslation());
-            translationStrategyES.Translate("Hello");
-            translationStrategyES.Translate("Home");
-            translationStrategyBR.Translate("none");
+            translation.SetStrategy(new SpanishTranslation());
+            translation.Translate("Hello");
+            translation.Translate("Home");
+            translation.Translate("none");
 
             // translate for italian
-            TranslationStrategy translationStrategyIT = new(new ItalianTranslation());
-            translationStrategyIT.Translate("Hello");
-            translationStrategyIT.Translate("Home");
-            translationStrategyBR.Translate("Home");
-            translationStrategyBR.Translate("none");
+            translation.SetStrategy(new ItalianTranslation());
+            translation.Translate("Hello");
+            translation.Translate("Home");
+            translation.Translate("none");
 
             Console.ReadLine();
         }
