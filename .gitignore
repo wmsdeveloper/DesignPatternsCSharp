@@ -29,3 +29,12 @@
 /Others Patterns/RepositoryPattern/Domain/Domain/obj
 /Others Patterns/RepositoryPattern/Infra/Infra/obj
 /Others Patterns/RepositoryPattern/WebApi/WebApi/obj
+/Others Patterns/RepositoryPattern/Domain/Domain/bin/Debug/net9.0
+/Others Patterns/RepositoryPattern/Infra/Infra/bin/Debug/net9.0
+/Others Patterns/RepositoryPattern/WebApi/WebApi/bin/Debug/net9.0
+/Others Patterns/RepositoryPattern/Domain/bin/Debug/net9.0
+/Others Patterns/RepositoryPattern/Domain/obj
+/Others Patterns/RepositoryPattern/Infra/bin/Debug/net9.0
+/Others Patterns/RepositoryPattern/Infra/obj
+/Others Patterns/RepositoryPattern/WebApi/bin/Debug/net9.0
+/Others Patterns/RepositoryPattern/WebApi/obj
